@@ -1,4 +1,4 @@
-file = open("../inputs/input-Day-1-Task-1.txt", "r")
+file = open("../inputs/input-Day-1.txt")
 
 last = first = "0"
 first_num = True
