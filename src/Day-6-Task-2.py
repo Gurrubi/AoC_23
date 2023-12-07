@@ -30,7 +30,7 @@ if __name__ == "__main__":
     while not win:
         distance = (race["time"]-seg_btn) * seg_btn
 
-        if distance < race["distance"]:
+        if distance <= race["distance"]:
             ways_to_lose += 1
         else:
             win = True
